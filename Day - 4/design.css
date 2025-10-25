@@ -1,0 +1,76 @@
+p[id="paragraph"] {
+    background-color: aqua;
+}
+
+p::first-letter{
+    background-color:;
+}
+p::selection{
+    background-color: green;
+}
+p::after{
+    background-color: brown;
+}
+p::before{
+    background-color: blueviolet;
+}
+{
+    width: 200px;
+    /* background-color: red; */
+    /* pdding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-left: 30px; */
+    padding: 20px 30px 40px 30px; 
+    /* margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom:30px;
+    margin-left: 50px; */
+    margin: 30px 20px;
+    color: white;
+
+
+    height: 400px;
+    width: 250px;
+    border: 3px solid black;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStnh_MIsVBWxoNpMlyEUfiGplLwqiz-oct6Q&s") ;
+    background-position: center;
+    background-size: cover;
+}
+
+block-ele{
+    background-color: brown;
+    display: inline;
+}
+
+span{
+    background-color: blue;
+    display: block;
+    width: 500px;
+}
+
+h1{
+    background-color: aqua;
+    /*display: inline-block; */
+    /*display: name; */
+    
+    
+}
+.container{
+    width: 300px;
+    height: 400px;
+    border: 2px solid blue;
+    /*display: flex; */
+    /* flex-direction: column; */
+    /*gap: 3px; */
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
