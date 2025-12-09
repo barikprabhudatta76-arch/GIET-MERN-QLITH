@@ -1,0 +1,107 @@
+.container{
+  width: 700px;
+  height: 500px;
+  margin: 40px auto;
+
+}
+
+/* .item{
+    float: left;
+
+}
+.item1{
+    width: 150px;
+    height: 160px;
+    background-color: orange;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+}
+.item2{
+   width: 150px;
+    height: 160px;
+    background-color: green;
+}
+.item3{
+    width: 150px;
+    height: 160px;
+    background-color: blue;
+} */
+
+.paragraph{
+    background-color: red;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+
+nav{
+    width: 100vw;
+    height: 70px;
+    box-shadow: 2px 2px 5px black;
+    display: flex;
+    border: 2px solid black;
+}
+.nav-logo{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-logo p{
+    color: blue;
+    font-size: 25px;
+}
+.nav-logo p span{
+    color: orangered;
+}
+
+ul{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+ul li{
+    transition-property: color;
+    transition-duration: ;
+    transition-timing-function: ease;
+}
+ul li:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.nav-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-btn button{
+    padding: 10px 20px;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.nav-btn button:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+
+.move{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+}
+.move:hover{
+    transform: translate(300px);
+}
+
