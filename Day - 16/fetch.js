@@ -41,7 +41,7 @@ promise.catch((rej)=>{
 //         body: JSON.stringify({
 //             name: "doremon",
 //             age: 30
-//         }),
+//         }),  
 //         headers:
 //             "Content-Type":"application/Json"
 //         }
@@ -67,7 +67,7 @@ promise.catch((rej)=>{
 //     console.log(data)
 //    console.log("successfully data saved")
 // }
-//createData()
+//createData()  
 
 let deleteData = async () => {
     let res = await fetch("https://jsonplaceholder.typicode.com/posts/1",{
